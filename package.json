@@ -1,0 +1,27 @@
+{
+  "name": "eustia-json",
+  "version": "0.0.1",
+  "description": "Eustia json transpiler",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liriliri/eustia-json.git"
+  },
+  "keywords": [
+    "eustia",
+    "json",
+    "transpiler"
+  ],
+  "author": "redhoodsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liriliri/eustia-json/issues"
+  },
+  "homepage": "https://github.com/liriliri/eustia-json#readme"
+}

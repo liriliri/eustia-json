@@ -1,0 +1,10 @@
+module.exports = {
+    files: 'index.html',
+    extension: ['js', 'json'],
+    transpiler: [
+        {
+            test: /\.json$/,
+            handler: require('../index.js')()
+        }
+    ]
+};
