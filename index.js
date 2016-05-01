@@ -1,7 +1,7 @@
 module.exports = function ()
 {
-    return function (src, modName)
+    return function (src)
     {
-        return modName + ' = ' + JSON.stringify(JSON.parse(src)) + ';';
+        return 'exports = ' + JSON.stringify(JSON.parse(src)) + ';';
     };
 };

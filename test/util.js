@@ -10,20 +10,18 @@
     } else { root._ = factory() }
 }(this, function ()
 {
-    var _ = {};
+        var _ = {};
 
     if (typeof window === 'object' && window._) _ = window._;
 
     /* ------------------------------ data ------------------------------ */
 
-    var data;
-
-    _.data = (function ()
+    var data = _.data = (function (exports)
     {
-        data = {"test":1,"data":true};
+        exports = {"test":1,"data":true};
 
-        return data;
-    })();
+        return exports;
+    })({});
 
     return _;
 }));
